@@ -9,7 +9,7 @@ services = ["__APP__"]
     name.en = "Configuration Options"
     name.fr = "Options de configuration"
 
-        [main.config.secret]
+        [main.config.password]
         ask.en = "password protection"
         ask.fr = "Protection par mot de passe"
         type = "number"

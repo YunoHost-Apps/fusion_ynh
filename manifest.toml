@@ -41,6 +41,12 @@ ram.runtime = "50M"
     type = "group"
     default = "visitors"
 
+    [install.password]
+    type = "password"
+    optional = true
+    help.en = "Optional password"
+    help.fr = "Mot de passe optionnel"
+
 [resources]
 
     [resources.sources]
