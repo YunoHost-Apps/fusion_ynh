@@ -1,0 +1,67 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
+packaging_format = 2
+
+id = "fusion"
+name = "Fusion"
+description.en = "Friendly RSS reader"
+description.fr = "Lecteur RSS convivial"
+
+version = "0.9.8~ynh1"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "MIT"
+code = "https://github.com/0x2E/fusion"
+
+[integration]
+yunohost = ">= 12.0.9"
+helpers_version = "2.1"
+architectures = "all"
+multi_instance = true
+
+ldap = false
+
+sso = false
+
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/fusion"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+
+    [resources.sources]
+
+    [resources.sources.main]
+    in_subdir = false
+    amd64.url = "https://github.com/0x2E/fusion/releases/download/v0.9.8/fusion_0.9.8_linux_amd64.zip"
+    amd64.sha256 = "b357b28652adf77275d078f2b423b0dc52277bbc316e9f5591f6277da98aa489"
+    arm64.url = "https://github.com/0x2E/fusion/releases/download/v0.9.8/fusion_0.9.8_linux_arm64.zip"
+    arm64.sha256 = "8712d30aa7849c83c5a5c0b881808d46f589390e37d7b4555f7bd28167d5314d"
+
+    # autoupdate.strategy = "latest_github_tag"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.ports]
+
+    #[resources.apt]
+    #packages = ""
