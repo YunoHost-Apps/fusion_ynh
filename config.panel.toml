@@ -1,0 +1,18 @@
+version = "1.0"
+
+[main]
+name.en = "Fusion configuration"
+name.fr = "Configuration de Fusion"
+services = ["__APP__"]
+
+    [main.config]
+    name.en = "Configuration Options"
+    name.fr = "Options de configuration"
+
+        [main.config.password]
+        ask.en = "password protection"
+        ask.fr = "Protection par mot de passe"
+        type = "number"
+        help.en = "Choose an optional passwordprotection"
+        help.fr = "Choisissez la protection par mot de passe en option"
+        bind = "PASSWORD:__INSTALL_DIR__/.env"
