@@ -7,7 +7,7 @@ name = "Fusion"
 description.en = "Friendly RSS reader"
 description.fr = "Lecteur RSS convivial"
 
-version = "0.9.8~ynh1"
+version = "0.9.8~ynh2"
 
 maintainers = ["eric_G"]
 
