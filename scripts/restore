@@ -27,6 +27,8 @@ systemctl enable "$app.service" --quiet
 
 yunohost service add "$app" --description="Friendly RSS reader" --log="/var/log/$app/$app.log"
 
+ynh_restore "/etc/logrotate.d/$app"
+
 #=================================================
 # RELOAD NGINX AND PHP-FPM OR THE APP SERVICE
 #=================================================
