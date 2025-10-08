@@ -47,7 +47,9 @@ ram.runtime = "50M"
     arm64.url = "https://github.com/0x2E/fusion/releases/download/v0.9.8/fusion_0.9.8_linux_arm64.zip"
     arm64.sha256 = "8712d30aa7849c83c5a5c0b881808d46f589390e37d7b4555f7bd28167d5314d"
 
-    # autoupdate.strategy = "latest_github_tag"
+    autoupdate.strategy = "latest_github_release"
+    autoupdate.asset.arm64 = "fusion_*_linux_arm64.tar.gz"
+    autoupdate.asset.amd64 = "fusion_*_linux_amd64.tar.gz"
 
     [resources.system_user]
 
