@@ -1,0 +1,1 @@
+When website is loaded it asks for a password; click/tap 'Sign in' to skip entering a password.
