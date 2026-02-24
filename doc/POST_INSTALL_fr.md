@@ -1,0 +1,1 @@
+Lorsque le site Web est chargé, il demande un mot de passe; cliquez sur « Se connecter » pour sauter l'entrée d'un mot de passe.
