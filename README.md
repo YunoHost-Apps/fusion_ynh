@@ -10,7 +10,7 @@ It shall NOT be edited by hand.
 
 Friendly RSS reader
 
-[![Version: 0.9.8~ynh2](https://img.shields.io/badge/Version-0.9.8~ynh2-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/fusion/)
+[![Version: 1.1.1~ynh1](https://img.shields.io/badge/Version-1.1.1~ynh1-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/fusion/)
 
 <div align="center">
 <a href="https://apps.yunohost.org/app/fusion"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
