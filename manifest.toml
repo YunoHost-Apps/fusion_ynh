@@ -7,7 +7,7 @@ name = "Fusion"
 description.en = "Friendly RSS reader"
 description.fr = "Lecteur RSS convivial"
 
-version = "1.3.0~ynh1"
+version = "1.3.1~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -42,10 +42,10 @@ ram.runtime = "50M"
 
     [resources.sources.main]
     in_subdir = false
-    amd64.url = "https://github.com/0x2E/fusion/releases/download/v1.3.0/fusion_linux_amd64.zip"
-    amd64.sha256 = "fb7d100865c5c447cf5f06540b8f4bbfe1ca42945d550b28562dba5a63960dad"
-    arm64.url = "https://github.com/0x2E/fusion/releases/download/v1.3.0/fusion_linux_arm64.zip"
-    arm64.sha256 = "38f993a55cdb56c294336ad686f939b1779f6417774678b75b45ba9379667973"
+    amd64.url = "https://github.com/0x2E/fusion/releases/download/v1.3.1/fusion_linux_amd64.zip"
+    amd64.sha256 = "8d5525f9f00be0cf2ba288f4ccba84a2fb234966cd77924dbf25fb040d24c155"
+    arm64.url = "https://github.com/0x2E/fusion/releases/download/v1.3.1/fusion_linux_arm64.zip"
+    arm64.sha256 = "9000a26e8e67800e68ee67deb0565c17868061f8bf57170f49d2864fecf58b9c"
 
     autoupdate.strategy = "latest_github_release"
     autoupdate.asset.arm64 = "fusion_linux_arm64.zip"
